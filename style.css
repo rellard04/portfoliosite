@@ -9,7 +9,10 @@ html {
 }
 
 /* header settings */
-
+#time {
+    float: right;
+    padding-right: 1rem;
+}
 h1 {
     color: #f33535;
     padding-left: 0.5rem;
