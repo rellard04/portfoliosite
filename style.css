@@ -14,10 +14,12 @@ h1 {
     color: #f33535;
     padding-left: 0.5rem;
 }
+header p {
+    padding-left: 2rem;
+}
 nav {
     overflow: hidden;
     background-color: #33425b;
-
 }
 
 nav a {
@@ -56,7 +58,7 @@ a.effect-underline:hover:after {
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 1fr;
     align-content: center;
     justify-content: center;
     grid-auto-rows: repeat(1fr);
@@ -79,6 +81,17 @@ img {
     grid-column: 1 / span 3;
     padding-bottom: 2rem;
     border-bottom: 1px solid;
+}
+
+button {
+    height: 2rem;
+    padding: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #33425b;
+    color:#f33535;
 }
 
 .links {

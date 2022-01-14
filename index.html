@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Roger Ellard's Portfolio</title>
+        <script src="./js.js"></script>
         <script src="https://kit.fontawesome.com/79350ec89d.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,7 +11,9 @@
     </head>
     <body>
     <header>
-        <h1>Roger Ellard</h1>
+        <div class="title">
+        <h1>Roger Ellard</h1><p>Web Development</p>
+        </div>
         <nav>
             <a href="./index.html" class="effect-underline">Home</a>
             <a href="#projects" class="effect-underline">Projects</a>
@@ -28,8 +31,8 @@
                     <p>A simple company page made responsive using FlexBox.</p>
                     <img src="./media/ficcomp.png" alt="fictional company" />
                     <br>
-                    <a href="https://github.com/rellard04/fictionalcompany" target="_blank">GitHub</a>
-                    <a href="https://rellard04.github.io/fictionalcompany/" target="_blank">Page</a>
+                    <a href="https://github.com/rellard04/fictionalcompany" target="_blank"><button><i class="fab fa-github-square"></i> GitHub</button></a>
+                    <a href="https://rellard04.github.io/fictionalcompany/" target="_blank"><button><i class="fas fa-newspaper"></i> Page</button></a>
                     </div>
 
                 </div>
@@ -55,7 +58,7 @@
 
             <div class="contact" id="contact">
                 <h2>Contact Me:</h2><br>
-                    <p><i class="far fa-envelope"></i> Email me at <a href="mailto:rellard04@gmail.com">rellard04@gmail.com</a></p>
+                    <p><i class="far fa-envelope"></i> Email me at <a href="mailto:rellard04@gmail.com" target="blank">rellard04@gmail.com</a></p>
                     
 
             </div>
