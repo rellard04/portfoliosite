@@ -115,8 +115,17 @@ img {
     grid-row-start: 3;
     text-align: center;
     grid-column: 1/ span 3;
+    display: block;
+    justify-content: center;
 }
 
+.contact p {
+    padding: 1rem;
+}
+
+footer {
+    text-align: center
+}
 
 @media only screen and (orientation: portrait) {
     main {
